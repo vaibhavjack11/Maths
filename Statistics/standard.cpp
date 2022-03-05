@@ -116,9 +116,9 @@ double standard(int n){
 int main() {
 	int arr[] = { 2,4,4,4,5,5,7,9 };
 	int size = sizeof(arr)/sizeof(int);
-// 	cout<<mean(arr,size)<<endl;
-// 	cout<<median(arr,size)<<endl;
-// 	p(mode(arr,size));
+	cout<<mean(arr,size)<<endl;
+	cout<<median(arr,size)<<endl;
+	p(mode(arr,size));
 	cout<<variance(arr,size,mean(arr,size))<<endl;
 	cout<<standard(variance(arr,size,mean(arr,size)))<<endl;
 	
